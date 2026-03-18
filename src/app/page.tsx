@@ -54,7 +54,7 @@ export default function LandingPage() {
               imageSrc: "http://img.b2bpic.net/free-photo/plant-picture-clean-room-equipment-stainless-steel-machines_645730-397.jpg",              imageAlt: "Cotton field ready for harvest"
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/knitting-tissue-with-sewing-machine_114579-12108.jpg?_wi=1",              imageAlt: "Cotton processing machinery"
+              imageSrc: "http://img.b2bpic.net/free-photo/knitting-tissue-with-sewing-machine_114579-12108.jpg",              imageAlt: "Cotton processing machinery"
             },
             {
               imageSrc: "http://img.b2bpic.net/free-photo/cloths-colored-with-different-natural-pigments-composition_23-2148734256.jpg",              imageAlt: "Finished cotton product packaging"
@@ -103,11 +103,11 @@ export default function LandingPage() {
             },
             {
               id: "cotton-yarn",              brand: "EMM Enterprises",              name: "Cotton Yarn (20s-40s)",              price: "Contact for Quote",              rating: 5,
-              reviewCount: "180+ orders",              imageSrc: "http://img.b2bpic.net/free-photo/flat-lay-yarn-spools_23-2148241988.jpg?_wi=1",              imageAlt: "Cotton yarn spools and rolls"
+              reviewCount: "180+ orders",              imageSrc: "http://img.b2bpic.net/free-photo/flat-lay-yarn-spools_23-2148241988.jpg",              imageAlt: "Cotton yarn spools and rolls"
             },
             {
               id: "cotton-fabric",              brand: "EMM Enterprises",              name: "Cotton Fabric",              price: "Contact for Quote",              rating: 5,
-              reviewCount: "320+ orders",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-flannel-shirt-detail_23-2149575394.jpg?_wi=1",              imageAlt: "Premium finished cotton fabric"
+              reviewCount: "320+ orders",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-flannel-shirt-detail_23-2149575394.jpg",              imageAlt: "Premium finished cotton fabric"
             }
           ]}
           ariaLabel="EMM Enterprises cotton products"
@@ -127,15 +127,15 @@ export default function LandingPage() {
           features={[
             {
               id: 1,
-              title: "Advanced Technology",              description: "State-of-the-art machinery and equipment ensuring superior product quality and consistent standards.",              imageSrc: "http://img.b2bpic.net/free-photo/knitting-tissue-with-sewing-machine_114579-12108.jpg?_wi=2",              imageAlt: "Advanced cotton processing technology"
+              title: "Advanced Technology",              description: "State-of-the-art machinery and equipment ensuring superior product quality and consistent standards.",              imageSrc: "http://img.b2bpic.net/free-photo/knitting-tissue-with-sewing-machine_114579-12108.jpg",              imageAlt: "Advanced cotton processing technology"
             },
             {
               id: 2,
-              title: "Quality Assurance",              description: "Rigorous testing and quality control at every stage of production for premium finished products.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-flannel-shirt-detail_23-2149575394.jpg?_wi=2",              imageAlt: "Quality control and testing"
+              title: "Quality Assurance",              description: "Rigorous testing and quality control at every stage of production for premium finished products.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-flannel-shirt-detail_23-2149575394.jpg",              imageAlt: "Quality control and testing"
             },
             {
               id: 3,
-              title: "Global Reach",              description: "Export-ready products meeting international standards and certifications for global markets.",              imageSrc: "http://img.b2bpic.net/free-photo/flat-lay-yarn-spools_23-2148241988.jpg?_wi=2",              imageAlt: "Packaged products for export"
+              title: "Global Reach",              description: "Export-ready products meeting international standards and certifications for global markets.",              imageSrc: "http://img.b2bpic.net/free-photo/flat-lay-yarn-spools_23-2148241988.jpg",              imageAlt: "Packaged products for export"
             }
           ]}
           ariaLabel="EMM Enterprises capabilities"
@@ -149,7 +149,7 @@ export default function LandingPage() {
           tag="Performance"
           tagIcon={TrendingUp}
           tagAnimation="slide-up"
-          textboxLayout="centered"
+          textboxLayout="default"
           useInvertedBackground={true}
           animationType="scale-rotate"
           metrics={[
@@ -180,6 +180,7 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground={false}
           faqsAnimation="slide-up"
+          mediaAnimation="slide-up"
           imageSrc="http://img.b2bpic.net/free-photo/mid-adult-engineer-using-touchpad-communicating-with-african-american-worker-about-product-reports-industrial-building_637285-4098.jpg"
           imageAlt="Customer support and service"
           mediaPosition="right"
